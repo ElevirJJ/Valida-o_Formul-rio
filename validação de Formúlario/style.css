@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    position: fixed;
+    color: #fff;
+    left: 42%;
+    top: 10%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 100%;
+    width: 290px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(142, 23, 23), rgb(13, 13, 13));
+    
+}
+
+.form-control{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-control label{
+    display: block;
+}
+
+.form-control input{
+    border: 3px solid #fff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+    outline: none;
+}
+
+.form-control small{
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+}
+
+
+#form button{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+button:hover{
+    background-color: rgb(8, 36, 8);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+h2{
+    color: #fff;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    
+}
+
+.botao{
+    position: absolute;
+    left: 48%;
+    top: 50%;
+  
+}
+
+.botao button{
+    background-color: rgb(52, 119, 52);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pagina{
+    display: none;
+}
+
+
+
+
+
+/* Animaçãoes */
+
+.form-control.sucesso input{
+    border-color: green;
+}
+
+.form-control.erro input{
+    border-color: red;
+}
+
+.form-control.erro small{
+    visibility: visible;
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            cadastre-se aqui
+        </h1>
+    </header>
+
+    <section class="container">
+        <form id="form">
+            <div class="form-control">
+                <label>Nome</label>
+                <input type="text" id="nome" required>
+
+                <small>erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label>Sobrenome</label>
+                <input type="text" id="sobrenome" required>
+
+                <small>erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="text" id="email" required>
+
+                <small>erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label>Senha</label>
+                <input type="password" id="senha" required>
+
+                <small>erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label>Confirm sua senha</label>
+                <input type="password" id="confirmaSenha" required>
+
+                <small>erro</small>
+
+            </div>
+
+            <button type="submit" class="formulario" id="submit">Enviar</button>
+        </form>
+    </section>
+
+    <div class="pagina">
+        <h2>
+            Cadastro realizado! <br> verifique seu e-mail.
+        </h2>
+
+        <div class="botao">
+            <button id="btn">Voltar</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
